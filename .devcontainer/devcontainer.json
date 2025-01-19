@@ -1,7 +1,7 @@
 {
   "name": "unit-code",
   "dockerComposeFile": "./docker-compose.yml",
-  //   "postCreateCommand": "./.devcontainer/postCreateCommand.sh",
+  "postStartCommand": "./.devcontainer/postStartCommand.sh",
   "workspaceFolder": "/app",
   "service": "docusaurus",
   "customizations": {

@@ -7,4 +7,5 @@ services:
       - 3000:3000
     volumes:
       - ../:/app
+      - ./.ssh/:/home/node/.ssh/
     tty: true
