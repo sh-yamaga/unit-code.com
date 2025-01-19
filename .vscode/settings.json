@@ -1,0 +1,11 @@
+{
+    "editor.formatOnSave": true,
+    "biome.lspBin": "./docusaurus/node_modules/.bin/biome",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports.biome": "explicit"
+    },
+    "[javascript][typescript][javascriptreact][typescriptreact][json][jsonc]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "biomejs.biome"
+    }
+}
