@@ -1,18 +1,20 @@
 {
-  "name": "unit-code",
-  "dockerComposeFile": "./docker-compose.yml",
-  "postStartCommand": "./.devcontainer/postStartCommand.sh",
-  "workspaceFolder": "/app",
-  "service": "docusaurus",
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "biomejs.biome",
-        "editorconfig.editorconfig",
-        "jasonnutter.search-node-modules",
-        "yzhang.markdown-all-in-one",
-        "unifiedjs.vscode-mdx"
-      ]
-    }
-  }
+	"name": "unit-code",
+	"dockerComposeFile": "./docker-compose.yml",
+	"postStartCommand": "./.devcontainer/postStartCommand.sh",
+	"workspaceFolder": "/app",
+	"service": "docusaurus",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-azuretools.vscode-docker",
+				"biomejs.biome",
+				"editorconfig.editorconfig",
+				"jasonnutter.search-node-modules",
+				"yzhang.markdown-all-in-one",
+				"unifiedjs.vscode-mdx",
+				"davidanson.vscode-markdownlint"
+			]
+		}
+	}
 }
